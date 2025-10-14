@@ -2,7 +2,7 @@
 
 This repository is designed to help **any user** explore and test the **reasoning ability of HRM** with *minimal computational resources*.
 
-For example, you can train **HRM-Mini** on an **M4 MacBook** in **under 10 hours** — making it perfect for lightweight experimentation and learning.
+For example, you can train **HRM-Mini** on an **M1 Pro MacBook** in **under 10 hours** — making it perfect for lightweight experimentation and learning.
 
 
 ## 🚀 Getting Started
@@ -21,6 +21,10 @@ conda activate mini
 
 
 ### 📦 Step 2: Install Dependencies
+
+Install pytorch framework, you can choose the specific command based on 
+
+https://pytorch.org/get-started/locally/
 
 Make sure you have `requirements.txt` in your project directory, then run:
 
