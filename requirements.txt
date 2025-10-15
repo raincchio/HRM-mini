@@ -1,7 +1,7 @@
-torch==2.8.0
-torchvision==0.23.0
-einops==0.8.1
-chardet==5.2.0
-datasets==4.2.0
-notebook==7.4.5
+torch
+torchvision
+einops>=0.6.0
+chardet>=4.0.0
+datasets>=3.2.0
+notebook>=6.0.0
 git+https://github.com/KellerJordan/Muon

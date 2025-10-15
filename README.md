@@ -48,6 +48,12 @@ http://localhost:8888/?token=xxxxxx
 
 Log in through your browser and open **`hrm_mini.ipynb`** to start your first reasoning experiment.
 
+```
+1_download_data.ipynb shows the data preparation process.
+2_hrm_mini_train.ipynb shows the training process, using only 1k samples.
+3_hrm_mini_eval.ipynb shows the evaluation process, where the model is evaluated on a hard puzzle.
+4_hrm_mini_test.ipynb shows the testing process, where you can use your own defined Sudoku puzzle to test HRM Mini's performance.
+```
 
 ## 💡 Tips
 
