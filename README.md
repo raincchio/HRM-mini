@@ -2,13 +2,13 @@
 
 This repository is designed to help **any user** explore and test the **reasoning ability of HRM** with *minimal computational resources*.
 
-For example, you can train **HRM-Mini** on an **M1 Pro MacBook** in **under 10 hours** — making it perfect for lightweight experimentation and learning.
+The code includes a 1-step gradient approximation and a hierarchical reasoning architecture, which can be studied for general-purpose applications.
 
+For example, you can train **HRM-Mini** on an **M1 Pro MacBook** in **under 10 hours** — making it ideal for lightweight experimentation and learning.
 
 ## 🚀 Getting Started
 
 Follow the steps below to quickly set up and launch **HRM-Mini** on an **Ubuntu 24** server.
-
 
 ### 🧩 Step 1: Create a Virtual Environment
 
@@ -19,19 +19,13 @@ conda create -n mini python=3.12
 conda activate mini
 ```
 
-
 ### 📦 Step 2: Install Dependencies
 
-Install pytorch framework, you can choose the specific command based on 
-
-https://pytorch.org/get-started/locally/
-
-Make sure you have `requirements.txt` in your project directory, then run:
+To install the necessary dependencies, use the appropriate command from [PyTorch's installation guide](https://pytorch.org/get-started/locally/), and make sure you have the `requirements.txt` file in your project directory. Then run:
 
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ### 🧠 Step 3: Try Out HRM-Mini
 
@@ -40,27 +34,26 @@ cd HRM-Mini
 jupyter notebook --ip=127.0.0.1 --port=8888
 ```
 
-After launching, click the link that looks like:
+After launching, click the link that looks like this:
 
 ```
 http://localhost:8888/?token=xxxxxx
 ```
 
-Log in through your browser and open **`hrm_mini.ipynb`** to start your first reasoning experiment.
+Log in through your browser and open **`hrm_mini.ipynb`** to begin your first reasoning experiment.
 
 ```
 1_download_data.ipynb shows the data preparation process.
-2_hrm_mini_train.ipynb shows the training process, using only 1k samples.
-3_hrm_mini_eval.ipynb shows the evaluation process, where the model is evaluated on a hard puzzle.
-4_hrm_mini_test.ipynb shows the testing process, where you can use your own defined Sudoku puzzle to test HRM Mini's performance.
+2_hrm_mini_train.ipynb demonstrates the training process using only 1k samples.
+3_hrm_mini_eval.ipynb shows the evaluation process, where the model is evaluated on a difficult puzzle.
+4_hrm_mini_test.ipynb allows you to test HRM Mini's performance on a custom Sudoku puzzle of your choice.
 ```
 
 ## 💡 Tips
 
-* For best performance, close other high-CPU tasks while training.
-* You can edit `hrm_mini.ipynb` to customize parameters or try your own datasets.
-* The notebook works smoothly on most modern laptops and desktops.
-
+* For optimal performance, close other high-CPU tasks during training.
+* Feel free to modify the `hrm_mini.ipynb` notebook to adjust parameters or experiment with your own datasets.
+* The notebook runs smoothly on most modern laptops and desktops.
 
 ## 🧾 License & Acknowledgment
 
