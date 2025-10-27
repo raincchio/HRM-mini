@@ -43,15 +43,13 @@ http://localhost:8888/?token=xxxxxx
 Log in through your browser and open following notebooks to begin your reasoning experiment.
 
 ```
-1_download_data.ipynb shows the data preparation process.
-2_hrm_mini_train.ipynb demonstrates the training process using only 1k samples.
-3_hrm_mini_eval.ipynb shows the evaluation process, where the model is evaluated on two difficult puzzle dataset.
-4_hrm_mini_test.ipynb allows you to test HRM Mini's performance on a custom Sudoku puzzle of your choice.
+1_prepare_data.ipynb shows the data preparation process, include how to augment data.
+2_hrm_mini_train.ipynb demonstrates the training process with augmented data.
+3_hrm_mini_test.ipynb allows you to test HRM Mini's result with your own Sudoku puzzle.
 ```
 
 ## 💡 Tips
 
-* For optimal performance, close other high-CPU tasks during training.
 * Feel free to modify the notebooks to adjust parameters or experiment with your own datasets.
 * The notebook runs smoothly on most modern laptops and desktops.
 
