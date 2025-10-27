@@ -1,10 +1,10 @@
 # 🌟 Welcome to the **HRM-Mini** Repository
 
-This repository is designed to help **any user** explore and test the **reasoning ability of HRM** with *minimal computational resources*.
+This repository is designed to help **users** explore and test the **reasoning abilities of HRM** with *minimal computational resources*.
 
-The code includes a 1-step gradient approximation and a hierarchical reasoning architecture, which can be studied for general-purpose applications.
+The code includes a 1-step gradient approximation and a hierarchical reasoning architecture, making it suitable for general-purpose applications.
 
-For example, you can train **HRM-Mini** on an **M1 Pro MacBook** in **under 10 hours** — making it ideal for lightweight experimentation and learning.
+For example, you can train **HRM-Mini** on an **M1 Pro MacBook** in **under 10 hours**, making it ideal for lightweight experimentation and learning.
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ conda activate mini
 
 ### 📦 Step 2: Install Dependencies
 
-To install the necessary dependencies, use the appropriate command from [PyTorch's installation guide](https://pytorch.org/get-started/locally/), and make sure you have the `requirements.txt` file in your project directory. Then run:
+To install the necessary dependencies, follow the appropriate instructions from [PyTorch's installation guide](https://pytorch.org/get-started/locally/). Ensure you have the `requirements.txt` file in your project directory, then run:
 
 ```bash
 pip install -r requirements.txt
@@ -40,12 +40,12 @@ After launching, click the link that looks like this:
 http://localhost:8888/?token=xxxxxx
 ```
 
-Log in through your browser and open following notebooks to begin your reasoning experiment.
+Log in through your browser and open the following notebooks to begin your reasoning experiment:
 
 ```
-1_prepare_data.ipynb shows the data preparation process, include how to augment data.
-2_hrm_mini_train.ipynb demonstrates the training process with augmented data.
-3_hrm_mini_test.ipynb allows you to test HRM Mini's result with your own Sudoku puzzle.
+1_prepare_data.ipynb - Shows the data preparation process, including how to augment data.
+2_hrm_mini_train.ipynb - Demonstrates the training process with augmented data.
+3_hrm_mini_test.ipynb - Allows you to test HRM-Mini's results with your own Sudoku puzzle.
 ```
 
 ## 💡 Tips
@@ -55,5 +55,4 @@ Log in through your browser and open following notebooks to begin your reasoning
 
 ## 🧾 License & Acknowledgment
 
-HRM-Mini is part of the **Hierarchical Reasoning Model (HRM)** project.
-If you find it useful, please ⭐ the repository and cite the related work.
+HRM-Mini is part of the **Hierarchical Reasoning Model (HRM)** project. If you find it useful, please ⭐ the repository and cite the related work.
