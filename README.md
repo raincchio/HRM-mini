@@ -4,7 +4,7 @@ This repository is designed to help **users** explore and test the **reasoning a
 
 The code includes a 1-step gradient approximation and a hierarchical reasoning architecture, making it suitable for general-purpose applications.
 
-For example, you can train **HRM-Mini** on an **M1 Pro MacBook** in **under 10 hours**, making it ideal for lightweight experimentation and learning.
+For example, you can train **HRM-Mini** on an **RTX4090 laptop GPU** in **about 30 minutes**, making it ideal for lightweight experimentation and learning.
 
 ## 🚀 Getting Started
 
