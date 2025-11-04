@@ -1,14 +1,16 @@
 # 🌟 Welcome to the **HRM-Mini** Repository
 
-This repository is designed to help **users** explore and test the **reasoning abilities of HRM** with *minimal computational resources*.
+This repository provides a lightweight environment for exploring and testing the reasoning capabilities of HRM with minimal computational resources.
 
-The code includes a 1-step gradient approximation and a hierarchical reasoning architecture, making it suitable for general-purpose applications.
+It implements a 1-step gradient approximation and a hierarchical reasoning architecture, making it suitable for general-purpose applications.
 
-For example, you can train **HRM-Mini** on an **RTX4090 laptop GPU** in **about 30 minutes**, making it ideal for lightweight experimentation and learning.
+Depending on hardware performance and setup, training typically takes several minutes to a few hours.
+
 
 ## 🚀 Getting Started
 
-Follow the steps below to quickly set up and launch **HRM-Mini** on an **Ubuntu 24** server.
+Follow the steps below to quickly set up and launch **HRM Mini** on an **Ubuntu 24** server.
+HRM Mini is also compatible with Windows and macOS.
 
 ### 🧩 Step 1: Create a Virtual Environment
 
@@ -21,7 +23,7 @@ conda activate mini
 
 ### 📦 Step 2: Install Dependencies
 
-To install the necessary dependencies, follow the appropriate instructions from [PyTorch's installation guide](https://pytorch.org/get-started/locally/). Ensure you have the `requirements.txt` file in your project directory, then run:
+Make sure the requirements.txt file is in your project directory. Then, first install PyTorch by following the appropriate installation steps from [PyTorch's installation guide](https://pytorch.org/get-started/locally/), and install the remaining dependencies by running:
 
 ```bash
 pip install -r requirements.txt
